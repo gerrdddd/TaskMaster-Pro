@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Next
+frontend/.next/
+frontend/out/
+
+# Nest
+backend/dist/
+
+# Variables de entorno
+.env
+.env.*
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.log
