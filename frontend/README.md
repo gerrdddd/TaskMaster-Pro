@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend (Next.js)
 
-## Getting Started
+## 4.1 Instalación
 
-First, run the development server:
+Entrar a la carpeta:
+
+```bash
+cd frontend
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+---
+
+## 4.2 Ejecución
+
+Modo desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Compilar para producción:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 4.3 Librerías utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+| Librería | Versión | Uso |
+|----------|---------|-----|
+| Next.js | 16.x | Framework frontend basado en React |
+| React | 19.x | Construcción de componentes |
+| Tailwind CSS | 4.x | Diseño de la interfaz |
+| TypeScript | 5.x | Tipado estático |
+| Lucide React | Última | Iconografía |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 4.4 Funcionalidades Frontend
 
-## Deploy on Vercel
+El sistema cuenta con los siguientes módulos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Dashboard principal.
+- Gestión de departamentos.
+- Gestión de empleados.
+- Gestión de tareas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Operaciones disponibles:
+
+- Crear
+- Consultar
+- Editar
+- Eliminar
+
+---
+
+## Evidencias de la interfaz
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Módulo Departamentos
+
+![Departamentos](screenshots/departamentos.png)
+
+### Módulo Empleados
+
+![Empleados](screenshots/empleados.png)
+
+### Módulo Tareas
+
+![Tareas](screenshots/tareas.png)
